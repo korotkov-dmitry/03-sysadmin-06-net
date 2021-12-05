@@ -196,7 +196,7 @@ Status Code: `307 Internal Redirect`
     ;4.4.8.8.in-addr.arpa.          IN      PTR
 
     ;; ANSWER SECTION:
-4.4.8.8.in-addr.arpa.   54365   IN      PTR     dns.google.
+    4.4.8.8.in-addr.arpa.   54365   IN      PTR     dns.google.
 
     ;; Query time: 36 msec
     ;; SERVER: 127.0.0.53#53(127.0.0.53)
