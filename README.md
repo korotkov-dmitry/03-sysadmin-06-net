@@ -65,6 +65,7 @@ Status Code: `307 Internal Redirect`
 ![stackoverflow](https://user-images.githubusercontent.com/92984527/144743131-3591cb0a-d829-4325-89c3-d00198db869c.png)
 
 ## 3. Какой IP адрес у вас в интернете?
+https://whoer.net/ru
 `176.50.168.66`
 ## 4. Какому провайдеру принадлежит ваш IP адрес? Какой автономной системе AS? Воспользуйтесь утилитой `whois`
     `vagrant@vagrant:~$ whois -h whois.ripe.net 176.50.168.66
@@ -161,6 +162,8 @@ Status Code: `307 Internal Redirect`
     dns.google.             900     IN      A       8.8.4.4
     ...`
 ## 8. Проверьте PTR записи для IP адресов из задания 7. Какое доменное имя привязано к IP? воспользуйтесь утилитой `dig`
+`dns.google.`
+    
     `vagrant@vagrant:~$ dig -x 8.8.8.8
 
     ; <<>> DiG 9.16.1-Ubuntu <<>> -x 8.8.8.8
@@ -182,7 +185,7 @@ Status Code: `307 Internal Redirect`
     ;; WHEN: Sun Dec 05 12:03:27 UTC 2021
     ;; MSG SIZE  rcvd: 73`
 
-`vagrant@vagrant:~$ dig -x 8.8.4.4
+    `vagrant@vagrant:~$ dig -x 8.8.4.4
 
     ; <<>> DiG 9.16.1-Ubuntu <<>> -x 8.8.4.4
     ;; global options: +cmd
